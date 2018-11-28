@@ -12,3 +12,5 @@ Still based on reviews. Firstly, find sentences in reviews containing key words,
 
 
 'Data preparation' directory has several python crawler program, which scrape the data from IMDB website. There is also a 'reviews_data_work.py' preprocessing the review text.
+
+'data set' directory has 4 .csv, which are scraped from IMDB website by program in 'Data preparation'. 
