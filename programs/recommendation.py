@@ -5,8 +5,8 @@ import requests
 from bs4 import BeautifulSoup
 from reviews_data_work import tokenize
 
-id_cleaned_reviews_file = "/Users/yangli/Desktop/Data_in_csv/id_cleaned_reviews.csv"
-movie_info_file = "/Users/yangli/Desktop/Data_in_csv/movie_info.csv"
+id_cleaned_reviews_file = "../dataset/id_cleaned_reviews.csv"
+movie_info_file = "../dataset/movie_info.csv"
 
 
 url_review_all = "https://www.imdb.com/title/{}/reviews?ref_=tt_urv"
