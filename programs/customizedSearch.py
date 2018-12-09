@@ -4,8 +4,8 @@ from nltk.corpus import wordnet as wn
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 import operator
 
-id_reviews = "/Users/yangli/Desktop/Data_in_csv/id_review2.csv"
-movie_info = "/Users/yangli/Desktop/Data_in_csv/movie_info.csv"
+id_reviews = "../dataset/id_review2.csv"
+movie_info = "../dataset/movie_info.csv"
 
 key_words = {'plot': ['plot', 'scenario', 'story', 'script', 'tale'],
              'actor': ['perform', 'act', 'acting', 'actor', 'performance'],

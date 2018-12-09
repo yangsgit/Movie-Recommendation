@@ -12,9 +12,9 @@ from sklearn.metrics.pairwise import linear_kernel
 omdb_api = "http://www.omdbapi.com/?apikey=9e1c784d&plot=full&t={}"
 url_review_all = "https://www.imdb.com/title/{}/reviews?ref_=tt_urv"
 
-id_reviews = "../Data_in_csv/id_review2.csv"
-movie_info = "../Data_in_csv/movie_info.csv"
-movies_score = "../Data_in_csv/movie_score.csv"
+id_reviews = "../dataset/id_review2.csv"
+movie_info = "../dataset/movie_info.csv"
+movies_score = "../dataset/movie_score.csv"
 key_words = {'plot': ['plot', 'scenario', 'script', 'scriptwriter', 'screenplay', 'Writing'],
              'actor': ['perform', 'performance','actor','actress', 'role'],
              'vision': ['shot', 'frames', 'picture', 'visual', 'vision', 'photography', 'cinematography', 'scenery'],
